@@ -40,6 +40,7 @@ LINEAGE_DISPLAY_VERSION := $(PRODUCT_VERSION_MAJOR)-$(LINEAGE_VERSION_SUFFIX)
 # LineageOS version properties
 PRODUCT_SYSTEM_PROPERTIES += \
     ro.lineage.version=$(LINEAGE_VERSION) \
-    ro.lineage.display.version=$(LINEAGE_DISPLAY_VERSION) \
+    ro.dumbos.version=DumbOS-$(LINEAGE_VERSION) \
+    ro.lineage.display.version=DumbOS-$(LINEAGE_DISPLAY_VERSION) \
     ro.lineage.build.version=$(PRODUCT_VERSION_MAJOR).$(PRODUCT_VERSION_MINOR) \
     ro.lineage.releasetype=$(LINEAGE_BUILDTYPE)
